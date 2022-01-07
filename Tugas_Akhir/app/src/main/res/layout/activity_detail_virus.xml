@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Virus">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_detail_virus"
+                android:layout_width="match_parent"
+                android:layout_height="279dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_detailnamavirus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif-monospace"
+                android:text="Nama Penyakit "
+                android:textAlignment="center"
+                android:textColor="#090909"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_keteranganvirus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="monospace"
+                android:text="Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus Detail virus  "
+                android:textColor="#090909"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

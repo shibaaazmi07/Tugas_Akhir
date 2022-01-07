@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1042168296471",
+    "firebase_url": "https://i-kes-a0350-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "i-kes-a0350",
+    "storage_bucket": "i-kes-a0350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042168296471:android:99ba31a3d165fff2cdd852",
+        "android_client_info": {
+          "package_name": "lat1.shibaaazmi.tugas_akhir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042168296471-7stmbeqmgjsani5si52he05agt7breha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDajEcUKL894Z5VAKbwYm_ic_6RX-9QNyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042168296471-7stmbeqmgjsani5si52he05agt7breha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
